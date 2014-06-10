@@ -14,7 +14,6 @@ import android.preference.PreferenceManager;
 import android.provider.MediaStore;
 import android.annotation.TargetApi;
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
@@ -29,7 +28,6 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
 	
 	private static final int REQUEST_IMAGE_CAPTURE = 1;
-	private static final String SHARED_PREFERENCES = "com.example.photoname.SHARED_PREFERENCES";
 	private static final String JPEG_FILE_SUFFIX = ".jpg";
 	private static final String APP_PATH = "PHOTO_NAME";
 	
