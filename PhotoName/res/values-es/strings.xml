@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Photo Name</string>
+    <string name="action_settings">Configuración</string>
+    <string name="prefixName">Prefijo</string>
+    <string name="mainName">Nombre</string>
+    <string name="sufixName">Sufijo</string>
+    <string name="take_photo">Sacar foto</string>
+    <string name="desc">imagen</string>
+    <string name="prefixNameRequired">El prefijo es necesario</string>
+    <string name="mainNameRequired">El nombre es necesario</string>
+    <string name="sufixNameRequired">El sufijo es necesario</string>
+    <string name="imageFileExists">El nombre de la imagen ya existe</string>
+
+    <!-- Settings preferences -->
+    <string name="edit_text_preferences">Preferencias de texto</string>
+	<string name="prefix_preference">Prefijo</string>
+    <string name="prefix_preference_summary">Prefijo por defecto</string>
+    <string name="sufix_preference">Sufijo</string>
+    <string name="sufix_preference_summary">Sufijo por defecto</string>    
+</resources>

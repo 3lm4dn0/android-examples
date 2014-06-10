@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:persistent="true" >
+
+    <PreferenceCategory android:title="@string/edit_text_preferences" >
+        <EditTextPreference
+            android:dialogTitle="@string/prefix_preference"
+            android:key="prefix_preference"
+            android:summary="@string/prefix_preference_summary"
+            android:title="@string/prefix_preference" />
+        
+		<EditTextPreference
+            android:dialogTitle="@string/sufix_preference"
+            android:key="sufix_preference"
+            android:summary="@string/sufix_preference_summary"
+            android:title="@string/sufix_preference" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
